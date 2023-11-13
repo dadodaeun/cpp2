@@ -1,16 +1,16 @@
 #include <iostream>
 using namespace std;
 
-// ±¸ÀÇ ¹İÁö¸§À¸·Î ±¸ÀÇ ºÎÇÇ ±¸ÇÏ±â
+// êµ¬ì˜ ë°˜ì§€ë¦„ìœ¼ë¡œ êµ¬ì˜ ë¶€í”¼ êµ¬í•˜ê¸°
 
 inline double calc_volume(int radius);
 int main() {
 	double radius = 0;
 
-	cout << "¹İÁö¸§À» ÀÔ·ÂÇÏ½Ã¿À: ";
+	cout << "ë°˜ì§€ë¦„ì„ ì…ë ¥í•˜ì‹œì˜¤: ";
 	cin >> radius;
 
-	cout << "±¸ÀÇ ºÎÇÇ´Â " << calc_volume(radius) << endl;
+	cout << "êµ¬ì˜ ë¶€í”¼ëŠ” " << calc_volume(radius) << endl;
 	return 0;
 }
 
