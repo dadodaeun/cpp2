@@ -1,19 +1,19 @@
 #include <iostream> 
 using namespace std;
 
-// 1^2 + 2^2 ... + n^2 ÀÇ °ª Ãâ·ÂÇÏ±â
+// 1^2 + 2^2 ... + n^2 ì˜ ê°’ ì¶œë ¥í•˜ê¸°
 
 int main() {
 	int num = 0;
 	int sum = 0;
 
-	cout << "nÀÇ °ªÀ» ÀÔ·ÂÇÏ½Ã¿À. : ";
+	cout << "nì˜ ê°’ì„ ì…ë ¥í•˜ì‹œì˜¤. : ";
 	cin >> num;
 
 	for (int i = 1; i <= num; i++) {
 		sum = sum + (i * i);
 	}
 
-	cout << "°Ô»ê °ªÀº " << sum << "ÀÔ´Ï´Ù.";
+	cout << "ê²Œì‚° ê°’ì€ " << sum << "ì…ë‹ˆë‹¤.";
 	return 0;
 }
