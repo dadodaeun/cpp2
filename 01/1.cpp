@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// ÀÔ·Â ¹ÞÀº ¼¼ Á¤¼ö Áß °¡Àå Å« ¼ö Ã£±â.
+// ìž…ë ¥ ë°›ì€ ì„¸ ì •ìˆ˜ ì¤‘ ê°€ìž¥ í° ìˆ˜ ì°¾ê¸°.
 
 int maximum(int x, int y, int z);
 
@@ -14,7 +14,7 @@ int main() {
 	cin >> x >> y >> z ;
 	max = maximum(x, y, z);
 
-	cout << "°¡Àå Å« Á¤¼ö´Â " << max << endl;
+	cout << "ê°€ìž¥ í° ì •ìˆ˜ëŠ” " << max << endl;
 
 	return 0;
 }
