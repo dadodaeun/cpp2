@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-	float fah = 0;	// È­¾¾
-	float cel = 0;	// ¼·¾¾
+	float fah = 0;	// ÃˆÂ­Â¾Â¾
+	float cel = 0;	// Â¼Â·Â¾Â¾
 
 	for (int i = 0; i <= 10; i++) {
 		fah = i * 10;
