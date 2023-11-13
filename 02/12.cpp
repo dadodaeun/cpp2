@@ -1,13 +1,13 @@
 #include <iostream> 
 using namespace std;
 
-// 100±îÁö 369 °ÔÀÓ
+// 100Â±Ã®ÃÃ¶ 369 Â°Ã”Ã€Ã“
 
 int main() {
 	
 	for (int i = 1; i <= 100; i++) {
 		if (i % 3 == 0) {
-			cout << "¹Ú¼ö ";
+			cout << "Â¹ÃšÂ¼Ã¶ ";
 		}
 		else
 		{
